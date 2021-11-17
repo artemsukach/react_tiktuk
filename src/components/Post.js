@@ -17,32 +17,6 @@ function formatCount(count, decimals = 2) {
 	return result;
 }
 
-// function isVisible(elem) {
-
-// 	let coords = elem.getBoundingClientRect();
-
-// 	let windowHeight = document.documentElement.clientHeight;
-
-// 	let topVisible = coords.top > 0 && coords.top < windowHeight;
-
-// 	let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
-// 	return topVisible || bottomVisible;
-// }
-
-// function showVisible() {
-// 	for (let video of document.querySelectorAll('video')) {
-// 		if (isVisible(video)) {
-// 			video.play();
-// 		} else {
-// 			video.pause();
-// 		}
-// 	}
-// }
-
-// showVisible();
-// window.onscroll = showVisible();
-
-
 export default class Post extends React.Component {
 	constructor(props) {
 		super(props);

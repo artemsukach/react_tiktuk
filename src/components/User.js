@@ -106,7 +106,7 @@ export default class User extends React.Component {
 							<Col xl={4} lg={4} md={4} sm={4} xs={6} className="px-1 mb-3" key={item.id}>
 								<Stack gap={2} direction="horizontal" className="name-wrapper justify-content-center mb-2">
 									<BsFillPlayFill />
-									<p className="text-center m-0">{formatCount(user.playCount)}</p>
+									<p className="text-center m-0">{formatCount(item.playCount)}</p>
 								</Stack>
 								<video className="w-100 rounded" controls>
 									<source src={item.videoUrl} type="video/mp4" />
